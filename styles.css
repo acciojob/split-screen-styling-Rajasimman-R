@@ -38,13 +38,12 @@ body {
 .article{
 	flex:3;
 	padding: 1em;
-	min-width:calc(3/4 * 100vw);
+	
 	min-height:60vh;
 }
 .aside{
 	background-color:gray;
-	flex: 1; /* Updated to take up 1/4th of the width of the content section */
-   /* Set your desired background color */
+	flex: 1; 
     padding: 1em;
 }
 @media(max-width: 768px){
